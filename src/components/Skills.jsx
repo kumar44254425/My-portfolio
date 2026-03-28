@@ -5,21 +5,21 @@ import { Code2, Server, Wrench } from 'lucide-react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend Developers',
-      icon: <Code2 className="text-pink-400" size={28} />,
-      skills: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Tailwind CSS'],
-      color: 'from-pink-500 to-rose-500'
-    },
-    {
-      title: 'Backend & Databases',
+      title: 'Programming & Databases',
       icon: <Server className="text-blue-400" size={28} />,
-      skills: ['Java (J2EE)', 'SQL', 'MySQL', 'Servlets', 'JSP', 'Apache Tomcat'],
+      skills: ['Java', 'SQL', 'MySQL', 'Servlets', 'JSP', 'Apache Tomcat'],
       color: 'from-blue-500 to-cyan-500'
     },
     {
-      title: 'Tools & Others',
+      title: 'Web & Tools',
+      icon: <Code2 className="text-pink-400" size={28} />,
+      skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Power BI', 'Jupyter Notebook', 'VS Code'],
+      color: 'from-pink-500 to-rose-500'
+    },
+    {
+      title: 'Soft Skills & Traits',
       icon: <Wrench className="text-amber-400" size={28} />,
-      skills: ['Git', 'GitHub', 'Power BI', 'MS Excel', 'VS Code', 'OOP', 'Data Structures', 'Debugging'],
+      skills: ['Communication', 'Problem Solving', 'Self Learning', 'Team Player', 'Disciplined', 'Positivity'],
       color: 'from-amber-400 to-orange-500'
     }
   ];

@@ -24,21 +24,24 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="flex-1 text-center md:text-left"
           >
-            <h2 className="text-xl md:text-2xl text-cyan-400 font-medium mb-2">Hello, I'm</h2>
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight">
-              Konda Sridhar
+            <div className="inline-block md:block mb-4">
+              <span className="text-sm md:text-2xl text-white md:text-cyan-400 bg-cyan-600 md:bg-transparent px-3 py-1 md:p-0 rounded-full font-medium drop-shadow-md">
+                Hello, I'm
+              </span>
+            </div>
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
+              GOSUKULA KUMAR
             </h1>
-            <h3 className="text-2xl md:text-3xl text-gray-300 font-semibold mb-6">
-              Backend Developer / Full Stack Developer
+            <h3 className="text-2xl md:text-3xl text-white md:text-gray-300 font-semibold mb-6 drop-shadow-md">
+              Aspiring Software Engineer
             </h3>
-            <p className="text-gray-400 text-lg md:text-xl max-w-2xl mb-8 leading-relaxed mx-auto md:mx-0">
-              A Computer Science graduate with hands-on experience building Java backend systems, 
-              MySQL databases, and responsive web applications. Passionate about innovation and delivering quality digital solutions.
+            <p className="text-white md:text-gray-400 text-lg md:text-xl max-w-2xl mb-8 leading-relaxed mx-auto md:mx-0 drop-shadow-lg">
+              Aspiring software engineer with strong fundamentals in programming and problem-solving. Eager to contribute to innovative projects, learn emerging technologies, and grow professionally in a collaborative work environment.
             </p>
             
             <div className="flex flex-wrap gap-4 justify-center md:justify-start mt-8">
               <a 
-                href="https://drive.google.com/file/d/171JnstEBM0p8qTSfnbpo2sA1UyYkkD4t/view?usp=drivesdk" 
+                href="https://drive.google.com/file/d/1Jpg-4zYcUUqVCDRUcYfs-G7xmj_LLynI/view?usp=drivesdk" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="px-6 py-2 rounded-xl text-white font-medium transition-all border border-cyan-400/60 hover:bg-cyan-500/10 hover:border-cyan-300 backdrop-blur-md"
@@ -46,7 +49,7 @@ const Hero = () => {
                 View Resume
               </a>
               <a 
-                href="https://github.com/sridhar56556" 
+                href="https://github.com/kumar44254425" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="px-6 py-2 rounded-xl text-white font-medium transition-all border border-cyan-400/60 hover:bg-cyan-500/10 hover:border-cyan-300 backdrop-blur-md"
@@ -54,7 +57,7 @@ const Hero = () => {
                 GitHub
               </a>
               <a 
-                href="https://linkedin.com/in/kondasridhar" 
+                href="https://www.linkedin.com/in/kumargosukula/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="px-6 py-2 rounded-xl text-white font-medium transition-all border border-cyan-400/60 hover:bg-cyan-500/10 hover:border-cyan-300 backdrop-blur-md"
@@ -62,7 +65,7 @@ const Hero = () => {
                 LinkedIn
               </a>
               <a 
-                href="mailto:sridharkonda553@gmail.com" 
+                href="mailto:kumargosukula55@gmail.com" 
                 className="px-6 py-2 rounded-xl text-white font-medium transition-all border border-cyan-400/60 hover:bg-cyan-500/10 hover:border-cyan-300 backdrop-blur-md"
               >
                 Email
@@ -80,10 +83,10 @@ const Hero = () => {
               <div className="w-full h-full rounded-full overflow-hidden border-2 border-white/10 relative">
                 <img 
                   src={`${import.meta.env.BASE_URL}profile.jpeg`} 
-                  alt="Konda Sridhar profile" 
-                  className="w-full h-full object-cover"
+                  alt="GOSUKULA KUMAR profile" 
+                  className="w-full h-full object-cover scale-105"
                   onError={(e) => {
-                    e.target.src = "https://ui-avatars.com/api/?name=Konda+Sridhar&background=0284c7&color=fff&size=512";
+                    e.target.src = "https://ui-avatars.com/api/?name=Gosukula+Kumar&background=0284c7&color=fff&size=512";
                   }}
                 />
               </div>

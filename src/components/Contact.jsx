@@ -28,32 +28,32 @@ const Contact = () => {
             </p>
 
             <div className="space-y-6 mt-8">
-              <a href="mailto:sridharkonda553@gmail.com" className="flex items-center p-4 glass-card group hover:scale-[1.02] transition-transform">
+              <a href="mailto:kumargosukula55@gmail.com" className="flex items-center p-4 glass-card group hover:scale-[1.02] transition-transform">
                 <div className="bg-blue-500/20 p-3 rounded-full mr-4 group-hover:bg-blue-500/40 transition-colors">
                   <Mail className="text-blue-400" size={24} />
                 </div>
                 <div>
                   <h4 className="text-gray-300 text-sm">Email</h4>
-                  <p className="text-white font-medium">sridharkonda553@gmail.com</p>
+                  <p className="text-white font-medium">kumargosukula55@gmail.com</p>
                 </div>
               </a>
 
-              <a href="tel:+919347389152" className="flex items-center p-4 glass-card group hover:scale-[1.02] transition-transform">
+              <a href="tel:+919515700891" className="flex items-center p-4 glass-card group hover:scale-[1.02] transition-transform">
                 <div className="bg-emerald-500/20 p-3 rounded-full mr-4 group-hover:bg-emerald-500/40 transition-colors">
                   <Phone className="text-emerald-400" size={24} />
                 </div>
                 <div>
                   <h4 className="text-gray-300 text-sm">Phone</h4>
-                  <p className="text-white font-medium">+91 9347389152</p>
+                  <p className="text-white font-medium">+91 9515700891</p>
                 </div>
               </a>
             </div>
 
             <div className="flex gap-4 mt-8">
-              <a href="https://linkedin.com/in/kondasridhar" target="_blank" rel="noopener noreferrer" className="p-4 glass rounded-full text-gray-300 hover:text-[#0a66c2] hover:bg-white/10 transition-all border border-white/20">
+              <a href="https://www.linkedin.com/in/kumargosukula/" target="_blank" rel="noopener noreferrer" className="p-4 glass rounded-full text-gray-300 hover:text-[#0a66c2] hover:bg-white/10 transition-all border border-white/20">
                 <FaLinkedin size={24} />
               </a>
-              <a href="https://github.com/sridhar56556" target="_blank" rel="noopener noreferrer" className="p-4 glass rounded-full text-gray-300 hover:text-white hover:bg-white/10 transition-all border border-white/20">
+              <a href="https://github.com/kumar44254425" target="_blank" rel="noopener noreferrer" className="p-4 glass rounded-full text-gray-300 hover:text-white hover:bg-white/10 transition-all border border-white/20">
                 <FaGithub size={24} />
               </a>
             </div>
@@ -66,12 +66,21 @@ const Contact = () => {
             transition={{ duration: 0.6 }}
             className="glass-card p-8"
           >
-            <form className="space-y-6">
+            <form action="https://formsubmit.co/kumargosukula55@gmail.com" method="POST" className="space-y-6">
+              {/* FormSubmit Honeypot to prevent spam */}
+              <input type="text" name="_honey" style={{ display: 'none' }} />
+              {/* FormSubmit Disable Captcha (Optional, for better UX) */}
+              <input type="hidden" name="_captcha" value="false" />
+              {/* FormSubmit Success Redirect (Optional) */}
+              {/* <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html" /> */}
+              
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">Your Name</label>
                 <input 
+                  name="name"
                   type="text" 
                   id="name" 
+                  required
                   className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-transparent transition-all"
                   placeholder="John Doe"
                 />
@@ -79,8 +88,10 @@ const Contact = () => {
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">Your Email</label>
                 <input 
+                  name="email"
                   type="email" 
                   id="email" 
+                  required
                   className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-transparent transition-all"
                   placeholder="john@example.com"
                 />
@@ -88,14 +99,16 @@ const Contact = () => {
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">Message</label>
                 <textarea 
+                  name="message"
                   id="message" 
                   rows={4}
+                  required
                   className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-transparent transition-all resize-none"
-                  placeholder="Hello Sridhar, I'd like to talk about..."
+                  placeholder="Hello Kumar, I'd like to talk about..."
                 />
               </div>
               <button 
-                type="button" 
+                type="submit" 
                 className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-medium py-3 rounded-lg transition-all shadow-[0_0_15px_rgba(6,182,212,0.3)] hover:shadow-[0_0_20px_rgba(6,182,212,0.5)]"
               >
                 Send Message <Send size={18} />

@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <a href="#" className="flex items-center space-x-2">
               <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500">
-                KS.
+                GK.
               </span>
             </a>
           </div>
@@ -41,8 +41,8 @@ const Navbar = () => {
                   href={link.href}
                   className={`px-3 py-2 rounded-md text-sm font-bold transition-all duration-200 ${
                     scrolled 
-                      ? 'text-white hover:text-cyan-400 hover:bg-white/10 drop-shadow-md' 
-                      : 'text-slate-900 hover:text-cyan-700 hover:bg-black/5'
+                      ? 'text-black hover:text-cyan-600 hover:bg-black/5' 
+                      : 'text-black hover:text-cyan-600'
                   }`}
                 >
                   {link.name}
@@ -74,7 +74,7 @@ const Navbar = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-white hover:text-cyan-400 hover:bg-black/30 block px-3 py-2 rounded-md text-base font-semibold drop-shadow-md"
+                  className="text-black hover:text-cyan-600 hover:bg-black/5 block px-3 py-2 rounded-md text-base font-semibold"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.name}

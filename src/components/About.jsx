@@ -23,8 +23,7 @@ const About = () => {
             <div className="glass-card p-8">
               <h3 className="text-2xl font-semibold text-white mb-4">Professional Summary</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
-                I am a focused computer science graduate highly skilled in writing functional test cases, identifying and documenting software defects, and validating application behavior across multiple layers. 
-                With a strong foundation in Java backend systems and responsive web applications, I bring strong analytical thinking, adaptability, and collaborative problem-solving skills to the table.
+                Aspiring software engineer with strong fundamentals in programming and problem-solving. Eager to contribute to innovative projects, learn emerging technologies, and grow professionally in a collaborative work environment.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-3 text-gray-300">
@@ -49,7 +48,7 @@ const About = () => {
                     <p className="text-gray-400">Sree Chaitanya Institute of Technological Sciences</p>
                     <div className="flex justify-between items-center mt-2">
                       <span className="text-sm text-cyan-400 bg-cyan-400/10 px-2 py-1 rounded">Dec 2021 - Jul 2025</span>
-                      <span className="text-sm text-gray-400 font-semibold">68%</span>
+                      <span className="text-sm text-gray-400 font-semibold">70%</span>
                     </div>
                   </div>
                 </div>
@@ -62,10 +61,10 @@ const About = () => {
                   </div>
                   <div>
                     <h4 className="text-xl font-bold text-white">Intermediate (MPC)</h4>
-                    <p className="text-gray-400">Kakatiya Junior College, Huzurabad</p>
+                    <p className="text-gray-400">Alphores Junior College, Karimnagar</p>
                     <div className="flex justify-between items-center mt-2">
                       <span className="text-sm text-purple-400 bg-purple-400/10 px-2 py-1 rounded">Jun 2019 - Mar 2021</span>
-                      <span className="text-sm text-gray-400 font-semibold">73%</span>
+                      <span className="text-sm text-gray-400 font-semibold">92%</span>
                     </div>
                   </div>
                 </div>

@@ -6,34 +6,34 @@ import { FaGithub } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
     {
-      title: "Encrypted Deduplication System",
-      description: "Designed a Java-based encrypted deduplication system to eliminate redundant data storage. Developed backend logic using Java Servlets for file upload, encryption, and duplicate checking, and built MySQL metadata tables.",
-      technologies: ["Java (J2EE)", "JDBC", "JSP", "Servlets", "MySQL", "Apache Tomcat"],
-      github: "https://github.com/sridhar56556",
+      title: "Detection of Fake Online Reviews",
+      description: "Developed a Java-based system using supervised and semi-supervised learning to detect fake and genuine reviews.",
+      technologies: ["Java", "Machine Learning"],
+      github: "https://github.com/kumar44254425",
       live: null,
       color: "from-purple-600 to-indigo-600"
     },
     {
-      title: "Online Ticket Booking System",
-      description: "Developed a responsive web application for booking tickets across bus, train, flight, and ship. Created an interactive dashboard displaying bookings, travel history, and total cost with an intuitive real-time fare breakdown.",
+      title: "Ticket Booking System",
+      description: "Web app for booking bus, train, and flight tickets with dynamic UI.",
       technologies: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/sridhar56556",
-      live: "#",
+      github: "https://github.com/kumar44254425",
+      live: "https://zippy-lollipop-7b9a34.netlify.app/",
       color: "from-cyan-500 to-blue-500"
     },
     {
-      title: "Online Banking",
-      description: "A comprehensive online banking platform designed to enable users to manage accounts, perform secure transactions, and seamlessly view transaction history with a focus on robust security.",
-      technologies: ["Java", "SQL", "Web Technologies"],
-      github: "https://github.com/sridhar56556/Online-Banking",
+      title: "SME AI Business Insights",
+      description: "AI-based system for analyzing business data using Python.",
+      technologies: ["Python", "AI"],
+      github: "https://github.com/kumar44254425",
       live: null,
       color: "from-blue-600 to-indigo-500"
     },
     {
-      title: "TicTacToe Game",
-      description: "An interactive and classic Tic-Tac-Toe game featuring a clean user interface. Implemented core game logic including win/draw detection and player turn management.",
-      technologies: ["JavaScript", "HTML", "CSS"],
-      github: "https://github.com/sridhar56556/TicTacToe-Game",
+      title: "Smart Kisan",
+      description: "Java-based agriculture system to support farmers with smart solutions.",
+      technologies: ["Java", "SQL"],
+      github: "https://github.com/kumar44254425",
       live: null,
       color: "from-emerald-500 to-teal-400"
     }
